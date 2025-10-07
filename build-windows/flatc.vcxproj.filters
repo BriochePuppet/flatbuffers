@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\code_generators.cpp" />
+    <ClCompile Include="..\grpc\src\compiler\cpp_generator.cc" />
+    <ClCompile Include="..\src\file_binary_writer.cpp" />
+    <ClCompile Include="..\src\file_name_saving_file_manager.cpp" />
+    <ClCompile Include="..\src\file_writer.cpp" />
+    <ClCompile Include="..\src\flatc.cpp" />
+    <ClCompile Include="..\src\flatc_main.cpp" />
+    <ClCompile Include="..\grpc\src\compiler\go_generator.cc" />
+    <ClCompile Include="..\src\idl_gen_binary.cpp" />
+    <ClCompile Include="..\src\idl_gen_cpp.cpp" />
+    <ClCompile Include="..\src\idl_gen_csharp.cpp" />
+    <ClCompile Include="..\src\idl_gen_dart.cpp" />
+    <ClCompile Include="..\src\idl_gen_fbs.cpp" />
+    <ClCompile Include="..\src\idl_gen_go.cpp" />
+    <ClCompile Include="..\src\idl_gen_grpc.cpp" />
+    <ClCompile Include="..\src\idl_gen_java.cpp" />
+    <ClCompile Include="..\src\idl_gen_json_schema.cpp" />
+    <ClCompile Include="..\src\idl_gen_kotlin.cpp" />
+    <ClCompile Include="..\src\idl_gen_kotlin_kmp.cpp" />
+    <ClCompile Include="..\src\idl_gen_lobster.cpp" />
+    <ClCompile Include="..\src\idl_gen_php.cpp" />
+    <ClCompile Include="..\src\idl_gen_python.cpp" />
+    <ClCompile Include="..\src\idl_gen_rust.cpp" />
+    <ClCompile Include="..\src\idl_gen_swift.cpp" />
+    <ClCompile Include="..\src\idl_gen_ts.cpp" />
+    <ClCompile Include="..\grpc\src\compiler\java_generator.cc" />
+    <ClCompile Include="..\grpc\src\compiler\python_generator.cc" />
+    <ClCompile Include="..\grpc\src\compiler\swift_generator.cc" />
+    <ClCompile Include="..\grpc\src\compiler\ts_generator.cc" />
+    <ClCompile Include="..\src\binary_annotator.cpp" />
+    <ClCompile Include="..\src\annotated_binary_text_gen.cpp" />
+    <ClCompile Include="..\src\bfbs_gen_lua.cpp" />
+    <ClCompile Include="..\src\bfbs_gen_nim.cpp" />
+  </ItemGroup>
+</Project>
